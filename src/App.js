@@ -29,7 +29,7 @@ function App(props) {
       <Route path="/AdWatch" element={<Ad/>}/>
       <Route path="/About" element={<About/>}/>
     </Routes>
-   
+   <Footer/>
     </div>
   );
 }

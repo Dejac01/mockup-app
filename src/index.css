@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.nav {
+.nav, .bottomnav{
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -30,7 +30,7 @@ code {
   text-align: right;
   color: Red;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .Date{
@@ -45,6 +45,9 @@ code {
 .Article{
   color: grey;
   font-family: sans-serif;
+  margin-bottom: 4rem;
+  border: solid 1px lightgray;
+  padding-bottom: 2rem;
 }
 
 .H3{
