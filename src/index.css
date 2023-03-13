@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: gray;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.C{
+  text-align: right;
+  color: Red;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.Date{
+  color: grey;
+  font-size: 2em;
+}
+.H1{
+  color: tomato;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.Article{
+  color: grey;
+  font-family: sans-serif;
+}

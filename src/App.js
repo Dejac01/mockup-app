@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+import { Route, Routes } from "react-router-dom";
+import Nav from './components/Nav';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Women from "./pages/Women";
+import Men from "./pages/Men";
+import Street from "./pages/Street";
+import Home from "./pages/Home";
+import Catwalk from "./pages/Catwalk";
+import Ad from "./pages/Ad";
+import About from "./pages/About";
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+    
+       <Header/>
+       <Nav/>
+
+       <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/Women`s" element={<Women/>}/>
+      <Route path="/Men`s" element={<Men/>}/>
+      <Route path="/On The Street" element={<Street/>}/>
+      <Route path="/The Catwalk" element={<Catwalk/>}/>
+      <Route path="/AdWatch" element={<Ad/>}/>
+      <Route path="/About" element={<About/>}/>
+    </Routes>
+   
     </div>
   );
 }
