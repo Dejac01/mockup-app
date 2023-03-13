@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.nav, .bottomnav{
+.nav{
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -52,5 +52,14 @@ code {
 
 .H3{
   font-family: sans-serif;
+  font-size: 2em;
+}
+
+.bottomnav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: red;
+  padding: 15px;
   font-size: 2em;
 }
