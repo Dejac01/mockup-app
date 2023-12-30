@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Nav(props) {
   return (
     <div className="nav">
+      <Link to="/Home">Home</Link>
       <Link to="/Women`s">Women`s</Link>
       <Link to="/Men`s">
         <div>Men`s</div>
