@@ -1,14 +1,10 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-
- function Nav (props){
+function Nav(props) {
   return (
     <div className="nav">
-      
-      <Link to="/Women`s"> 
-        Women`s
-      </Link>
+      <Link to="/Women`s">Women`s</Link>
       <Link to="/Men`s">
         <div>Men`s</div>
       </Link>
@@ -26,5 +22,5 @@ import {Link} from 'react-router-dom'
       </Link>
     </div>
   );
-};
-export default Nav
+}
+export default Nav;
